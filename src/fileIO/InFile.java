@@ -10,7 +10,8 @@ public class InFile{
     private StreamTokenizer token;
     private StreamTokenizer markerToken;
     private static int MAXBUFFERSIZE =1000000;
-//Standard File
+    
+    //Standard File
     public InFile(String name){
         try{
             fileName=name;
