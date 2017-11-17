@@ -204,7 +204,8 @@ public class SubclassSample {
 		int k=data.length;
 		double std=0;
 		for(int i=0;i<k;i++){
-			std+=Math.pow(data[i], mean);
+			//std+=Math.pow(data[i], mean);
+			std+=Math.pow(data[i]- mean,2);
 		}
 		//此处需要二次确定
 		std=std/k;
