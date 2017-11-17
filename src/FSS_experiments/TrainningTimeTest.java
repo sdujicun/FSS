@@ -21,7 +21,7 @@ import development.DataSets;
 public class TrainningTimeTest {
 	public static void main(String[] args) throws Exception {
 
-		String[] problems={"ChlorineConcentration","coffee","DiatomSizeReduction","ECG200","ECGFiveDays","MoteStrain","Lightning7","Symbols","SyntheticControl","Trace"};
+		String[] problems={"ChlorineConcentration","Coffee","DiatomSizeReduction","ECG200","ECGFiveDays","MoteStrain","Lightning7","Symbols","SyntheticControl","Trace"};
 			
 
 		for (int i = 0; i < problems.length; i++) {

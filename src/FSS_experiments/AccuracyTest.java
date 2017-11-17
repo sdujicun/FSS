@@ -32,8 +32,8 @@ public class AccuracyTest {
 			"TwoLeadECG", // 23,1139,82,2
 	};
 		System.out.println(problems.length);
-		//for (int i = 0; i < problems.length; i++) {
-		for (int i = problems.length-1; i >=0; i--) {
+		for (int i = 0; i < problems.length; i++) {
+		
 			System.out.print(problems[i] + "\t");
 			accuracyForFSS(problems[i]);
 			System.out.println();
