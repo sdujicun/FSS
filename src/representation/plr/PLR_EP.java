@@ -37,7 +37,7 @@ public class PLR_EP {
 		List lis=new ArrayList();
 		for(int i=0;i<IP.length;i++){
 			if(IP[i]==1)
-				lis.add(IP[i]);
+				lis.add(i);
 		}
 		int[] IPIndex=new int[lis.size()];
 		for(int i=0;i<lis.size();i++){
